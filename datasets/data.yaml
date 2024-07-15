@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['1']
+
+roboflow:
+  workspace: trapoom-ukarapol
+  project: pallet-224
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/trapoom-ukarapol/pallet-224/dataset/1
